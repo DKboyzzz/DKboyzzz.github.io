@@ -1,0 +1,160 @@
+<!doctype html>
+<html class="no-js" lang="lu">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-36PPL2EVM2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-36PPL2EVM2');
+  </script>
+
+  <meta charset="utf-8">
+  <title>dkboyzzz</title>
+
+  <link rel="shortcut icon" href="img/julien.jpg" />
+  <link rel="icon" href="img/julien.jpg" />
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style1.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/script.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'G-36PPL2EVM2', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+
+
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn"
+       onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="hengover.html">Hengover</a>
+    <a
+      href="https://i.ibb.co/c8wf6wg/Timesquare1-dkboyzzz.jpg">Hannergrond</a>
+  </div>
+
+  <div id="main">
+
+    <h6><em>Michael Daniel approved Website</em></h6>
+
+
+    <div class="h1_background">
+
+      <h1> DKboyzzz </h1>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer"
+          onclick="openNav()" class="span">&#9776</span>
+
+    <br>
+    <button class="button_index" onclick="VLOG()" style="border-radius: 5px 0 0 5px;">VLOG</button>
+    <button class="button_index" onclick="Trailer()" style="border-radius: 0 5px 5px 0; margin-left: -4px">Trailer</button>
+    <br>
+
+    <div class="video_index_bckgrnd " id="Trailer" style="display: none;">
+      <iframe  class="video" src="https://www.youtube.com/embed/GlPommBVrMs">
+      </iframe>
+
+    </div>
+
+
+    <div class="video_index_bckgrnd" id="VLOG" style="display: none">
+      <p class="videotitel" style=" margin: 30px 30px 30px 30px "> Vlog incoming </p>
+    </div>
+
+
+    <div id="logged_in_1">
+    </div>
+    <div class="logged_in " id="logged_in_2">
+      <div class="gray_blue_bckgrnd3 animate">
+        <em class="onlydk">dkboyzzz only</em>
+        <button  onclick="previous()" class="button_previous_home">Previous</button>
+        <p id="current_video" class="videotitel">1. Heng Breif reaction:</p>
+        <iframe id="video_" class="video" src="https://www.youtube.com/embed/Gp-IHiGaay0">
+        </iframe>
+        <button onclick="next()" class="button_next_home">Next</button>
+        <br>
+
+
+      </div>
+    </div>
+
+
+    <button onclick="aA()" id="button_1" class="button"
+            style="width:auto;">Login</button> <br>
+    <div id="login_" class="login_1_bckgrnd">
+      <div class="login_1">
+        <div class="login_1_content animate">
+          <div class="login_margin">
+       <span onclick="bB()" class="close1"
+             title="Close">&times;</span>
+            <p id="user"><b>Username</b></p>
+            <input id="username" placeholder="Enter Username"
+                   class="input">
+            <p id="pass"><b>Password</b></p>
+            <input id="password" type="password"
+                   placeholder="Enter Kekword" class="input">
+            <button onclick="login()" class="Login_button"
+                    id="button_2" title="Login">Login</button>
+            <p id="failure" class="failure" style="font-weight: bold">
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div id="logout_" class="logout_bckgrnd">
+    <div class="logout">
+      <div class="logout_content animate">
+        <div class="login_margin">
+      <span onclick="cC()" class="close1"
+            title="Close">&times;</span>
+          <p> <b> Are you sure you want to log out? </b>
+          </p>
+          <button class="logout_button" id="yes"
+                  onclick="logoutYes()">Yes</button> <button
+          class="logout_button" id="no"
+          onclick="logoutNo()">No</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
