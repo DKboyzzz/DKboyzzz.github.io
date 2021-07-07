@@ -145,6 +145,21 @@ background: linear-gradient(to right, #ffc500, #c21500);
 background: -webkit-linear-gradient(to right, #c21500#ffc500, white);
 background: linear-gradient(to right, white, #ffc500);
 }
+.tilesWrap li:nth-child(10):before {
+	background: #c21500;
+background: -webkit-linear-gradient(to right, #c21500#ffc500, white);
+background: linear-gradient(to right, #FFAFBD, blue);
+}
+.tilesWrap li:nth-child(11):before {
+	background: #c21500;
+background: -webkit-linear-gradient(to right, #c21500#ffc500, white);
+background: linear-gradient(to right, #C9FFBF, white);
+}
+.tilesWrap li:nth-child(12):before {
+	background: #c21500;
+background: -webkit-linear-gradient(to right, #c21500#ffc500, white);
+background: linear-gradient(to right, #ffc500, yellow);
+}
 
 h6 {
   color: whitesmoke;
