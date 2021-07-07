@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#062e3f">
+    <meta name="Description" content="A dynamic and aesthetic To-Do List WebApp.">
+
+    <!-- Google Font: Quick Sand -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- font awesome (https://fontawesome.com) for basic icons; source: https://cdnjs.com/libraries/font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+
+    <title>Italien</title>
+
+    <link rel="shortcut icon" href="img/julien.jpg" />
+    <link rel="icon" href="img/julien.jpg" />
+
+
+
+    <link rel="stylesheet" href="css/italien.css">   
+
+</head>
+<h6><em>Michael Daniel approved Website</em></h6>
+
+<body>
+    <ul class="tilesWrap">
+        <li>
+            <h2>01</h2>
+            <h3>Heng exception </h3>
+            <p>
+                Wann den Heng mattkennt muss heen dem Alex seng challenge akzepteieren an heen muss all daag eng Menz werfen dei entscheed ob heen Spull amplaatz vun engem vun deenen aaneren 2 machen muss. 
+                
+            </p>
+        </li>
+        <li>
+            <h2>02</h2>
+            <h3>Anarchie ass welcome</h3>
+            <p>
+                <b>Ett gett sech net iwwert onordentlechkeet obgerecht.</b>
+                (Regel 3 an 4 sinn exceptions et derf een leit drun erenneren sie ze machen mee wann een maldet well sie net gemach ginn dann muss dei persoun dei
+                 maldet matt deenen aaneren eng bestrofung machen well dei heiten Regel gebrach gett.)
+            </p>
+        </li>
+        <li>
+            <h2>03</h2>
+            <h3>Raum dein Teller ob</h3>
+            <p>
+                Jiddereen muss sech em seng Telleren/schosselen etc. kemmeren, sie mussen an der kichen landen wei se dohin kommen ass egal. Och eng aaner persoun derf dein Geschirr an&#39t Kichen brengen.
+            </p>
+        </li>
+        <li>
+            <h2>04</h2>
+            <h3>Keen Yann pullen</h3>
+            <p>
+                Et muss een mindestens enger persoun mendlech bescheed soen wann een t&#39Grondsteck verleist.
+            </p>
+        </li>
+        <li>
+            <h2>05</h2>
+            <h3>Keng Pussy</h3>
+            <p>
+                Bestrofungen mussen gemach ginn virun dem mir rem an letzebuerg sinn. (Daat gellt nemmen wann Bestrofung net direkt gemach kann ginn. Am generell Fall soll sie direkt duerchgefeiert ginn)
+            </p>
+        </li>
+        <li>
+            <h2>06</h2>
+            <h3>Iced</h3>
+            <p>
+                Et gett erwart dass jiddereen wees wei daat game funktioneiert ween et net wees hei ass een <a style="color:white;" href="https://www.youtube.com/watch?v=oodjEb9yDx0&ab_channel=JEWELTHIEF">Example</a>
+                <br>
+                Mir benotzen dei kleng smirnoff Ice. An dei persoun dei geiced gett muss ob engem Knei sinn.
+            </p>
+        </li>
+        <li>
+            <h2>07</h2>
+            <h3>Iced gefilmt</h3>
+            <p>
+                Wann eng aaner persoun geiced gett muss daat gefilmt ginn soss muss dei original Persoun dei d&#39Smirnoff ice plazeiert huet selwer eng Smirnoff ice drenken matt den selweschten regelen.
+            </p>
+        </li>
+        <li>
+            <h2>08</h2>
+            <h3>Crack</h3>
+            <p>
+                Den Crack derf am auto keng shots drenken.
+            </p>
+        </li>
+        <li>
+            <h2>09</h2>
+            <h3>Regelbeauftragten</h3>
+            <p>
+                Emmer wann eng Regel gebrach gett, gett een Regelbeauftragten gerandomed. Den Regelbeauftragten entscheed ob d'Regel wierklech gebrach gouf.
+                Den Regelbeauftragten kann een hei randomen:
+            </p>
+            <p id="name"></p>
+            <button id="random" onclick='random()'>Random</button>
+
+        </li>
+        <li>
+            <h2>10</h2>
+            <h3>El Diablo</h3>
+            <p>
+                Wann den Yannick et hinkritt eng italienerin ze bangen, derf heen jidderengem eng Backpfeife ginn an muss keng Hausreinigung mei machen. (Hausreinigungen vum Yannick ginn nei gerandomed)
+
+            </p>
+        </li>
+        <li>
+            <h2>11</h2>
+            <h3>Florenz</h3>
+            <p>
+                Wann een vun den singleboys zu Florenz matt enger That pennt, dann mussen dei aaner singleboys hien den nächsten dag sichen fueren.
+            </p>
+        </li>
+        <li>
+            <h2>12</h2>
+            <h3>Hausreinigungs Zyklus</h3>
+            <p>
+                Den Hausreinigungs Zyklus gouf gerandomed matt strikten Regelen dei hei net genannt ginn.
+                Et ginn 3 Aufgaben pro dag. Dechdecker, Spull an Obraumen.
+            </p>
+            <button onclick="zyklus()">Mei infos</button>
+        </li>
+        
+    </ul>
+    <div class="layer" id="layer">
+        <div class="zyklus">
+            <ul>Dechdecker: den Dechdecker muss all Owes den Dech decken an muss färdeg sinn virun dem mir iessen</ul>
+            <ul>Spull: Emmer 2 leit mache Spull gleichzeiteg. Hieren job ass et deen dag Spull ze machen. Dei eenzeg regel ass dass et muss gemach ginn virun dem sie pennen ginn.</ul>
+            <ul>Obraumen: Moies sollen dei fläschen, becheren etc. vum dag virdrun obgeraumt ginn. Et muss virun 15:30 gemach ginn.</ul>
+            <ul>Zyklus:</ul>
+            <ul style="display: inline; float: left;">Day 1:
+                <br>
+                ○  Dechdecker: Daniel
+                <br>
+                ○  Spull: Crack, Yannick
+                <br>
+                ○  Obraumen: nobody</ul>
+                <ul style="display: inline; float: left;">Day 2:
+                 <br>
+                 ○  Dechdecker: Alex
+                  <br>
+                 ○  Spull: Tun, Yann
+                 <br>
+                 ○  Obraumen: Jany, Julien</ul>  
+                <ul style="display: inline; float: left;">Day 3:
+                <br>
+                ○  Dechdecker: Jany
+                <br>
+                ○  Spull: Crack, Alex
+                <br>
+                ○  Obraumen: Yannick, Yann</ul>
+                <ul style="display: inline; float: left;">Day 4:
+                <br>
+                ○  Dechdecker: Alex
+                <br>
+                ○  Spull: Darren, Yann
+                <br>
+                ○  Obraumen: Crack, Tun</ul>
+                <ul style="display: inline; float: left;">Day 5:
+                <br>
+                ○  Dechdecker: Yannick
+                <br>
+                ○  Spull: Crack, Jany
+                <br>
+                ○  Obraumen: Darren, Julien</ul>
+                <ul style="display: inline; float: left;">Day 6:
+                <br>
+                ○  Dechdecker: Darren
+                <br>
+                ○  Spull: Daniel, Julien
+                <br>
+                ○  Obraumen: Tun, Jany</ul>
+            <button class="bttn" onclick="zyklusclose()">&times</button>
+        </div>
+    </div>
+      <!-- Add your site or application content here -->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/script.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'G-36PPL2EVM2', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+    <script src="italien.js" type="text/javascript"> </script>
+</body>
+</html>
