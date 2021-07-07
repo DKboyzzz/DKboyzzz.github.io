@@ -186,6 +186,7 @@ h6 {
     margin-right: 20%;
     margin-top: 10%;
     color: white;
+    overflow: auto;
 }
 .layer{
     z-index: 3;
@@ -195,6 +196,7 @@ h6 {
     background-color: rgba(194, 194, 194, 0.2);
     position: fixed;
     display: none;
+    overflow: auto;
 }
 .bttn{
     position: absolute;
